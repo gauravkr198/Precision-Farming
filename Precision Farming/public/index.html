@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Precision Farming Tools</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Precision Farming Tools</h1>
+    <p>Optimize your farming practices with advanced tools!</p>
+  </header>
+  <div class="container">
+    <div class="feature">
+      <h2>Soil Moisture Monitoring</h2>
+      <p>Monitor soil moisture levels in real time to optimize irrigation and water usage.</p>
+      <button id="soilMoistureButton">Check Soil Moisture</button>
+      <div class="result" id="soilMoistureResult">
+        <!-- Result will be displayed here -->
+      </div>
+    </div>
+
+    <div class="feature">
+      <h2>Weather Forecast</h2>
+      <p>Access accurate weather forecasts tailored to your location to plan farming activities.</p>
+      <button id="weatherForecastButton">Get Weather Forecast</button>
+      <div class="result" id="weatherForecastResult">
+        <!-- Result will be displayed here -->
+      </div>
+    </div>
+
+    <div class="feature">
+      <h2>Soil pH Measurement</h2>
+      <p>Measure the pH level of your soil to ensure optimal conditions for your crops.</p>
+      <button id="soilPhButton">Check Soil pH</button>
+      <div class="result" id="soilPhResult">
+        <!-- Result will be displayed here -->
+      </div>
+    </div>
+
+    <div class="feature">
+      <h2>Crop Health Analysis</h2>
+      <p>Analyze the health of your crops using advanced imaging techniques.</p>
+      <input type="file" id="cropImageInput" accept="image/*">
+      <label class="custom-file-upload" for="cropImageInput">Upload Image</label>
+      <button id="cropHealthButton">Analyze Crop Health</button>
+      <div class="result" id="cropHealthResult">
+        <!-- Result will be displayed here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
